@@ -1,0 +1,135 @@
+/* @font-face {
+    font-family: 'Brown';
+    src: url('fonts/BrownBold.html');
+    src: url('fonts/BrownBoldd41d.html?#iefix') format("embedded-opentype"),
+ url("on/demandware.static/Sites-drunkelephant_us-Site/-/default/dw8e0f60c2/fonts/BrownBold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+} */
+
+ISAPPLEPAY {
+    display: inline;
+    }
+   
+    .dw-apple-pay-button,
+    .dw-apple-pay-button:hover,
+    .dw-apple-pay-button:active {
+        background-color: black;
+        background-image: -webkit-named-image(apple-pay-logo-white);
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: 75% 60%;
+        border-radius: 5px;
+        border: 1px solid black;
+        box-sizing: border-box;
+        margin: 5px auto;
+        min-height: 30px;
+        min-width: 100px;
+        padding: 0;
+    }
+   
+    .dw-apple-pay-button:after {
+        content: 'Apple Pay';
+        visibility: hidden;
+    }
+   
+    .dw-apple-pay-button.dw-apple-pay-logo-white {
+        background-color: white;
+        border-color: white;
+        background-image: -webkit-named-image(apple-pay-logo-black);
+        color: black;
+    }
+   
+    .dw-apple-pay-button.dw-apple-pay-logo-white.dw-apple-pay-border {
+        border-color: black;
+    }
+   
+    .de-sh-popup-wrapper--rect {
+        max-width: 90rem;
+        height: auto;
+        max-height: initial;
+    }
+   
+    .de-sh-popup-wrapper {
+        background-color: #A7FBFF;
+        border: none;
+        padding: 3rem 2rem;
+        display: block;
+    }
+   
+    .de-sh-popup-wrapper-heading {
+        font-weight: 400;
+        font-size: 3rem;
+        line-height: 1.25;
+        letter-spacing: -0.00962vmin;
+    }
+   
+    .de-sh-popup-wrapper-exception {
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 1.25;
+        letter-spacing: -0.00962vmin;
+    }
+   
+    .de-sh-popup-wrapper-cta {
+        background-color: #fff;
+    }
+   
+    .de-sh-popup-wrapper-moreinfo {
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 1.25;
+        letter-spacing: -0.00962vmin;
+    }
+   
+    @media (min-width: 580px) {
+        .de-sh-popup-wrapper {
+            padding: 8rem 9rem 4rem;
+        }
+   
+        .de-sh-popup-wrapper-heading {
+            font-size: 6rem;
+        }
+   
+        .de-sh-popup-wrapper-exception {
+            font-size: 3rem;
+        }
+   
+        .de-sh-popup-wrapper-moreinfo {
+            font-size: 1.75rem;
+        }
+    }
+   
+       .de-promo-bar {
+           background-color: #f6dcff;
+           color: #4a4a4a;
+       }
+   
+       .de-promo-bar .de-desc {
+           max-width: 70rem !important;
+       }
+       .de-home-hero .de-large-image .de-cropped-image-wrapper {
+           padding-bottom: 67.8%;
+       }
+   
+       .de-home-hero .de-large-image .de-cropped-image-wrapper img {
+           object-fit: contain;
+       }
+       .de-promo-bar {
+           background-color: #f6dcff;
+           color: #4a4a4a;
+       }
+   
+       .de-promo-bar .de-desc {
+           max-width: 70rem !important;
+       }
+      
+
+       
+       .de-animated-gradient {
+        background-size: 200% 900%;
+        background-image: linear-gradient(120deg, #fff8a7, #f48efa);
+        animation: gradientAnimation 6s ease infinite
+    }
+    

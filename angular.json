@@ -25,9 +25,62 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/fancybox.min.css",
+              "src/assets/css/glide.core.min.css",
+              "src/assets/css/loading-attribute-polyfill.css",
+              "src/assets/css/nice-select.css",
+              "src/assets/css/owl.carousel.min.css",
+              "src/assets/css/picker.min.css",
+              "src/assets/css/plyr.min.css",
+              "src/assets/css/storefront.css",
+              "src/assets/css/style.css",
+              "src/assets/css/swiper-bundle.min.css",
+              "src/assets/css/swiper.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/index.js",
+               "src/assets/lib/jquery/jquery-3.6.0.min.js",
+               "src/assets/lib/jquery-3.6.0.min.js",
+               "src/assets/lib/swiper-bundle.min.js",
+               "src/assets/lib/textZoomEvent.js",
+
+              "src/assets/lib/accessibility.js",
+
+              "src/assets/lib/jquery/ui/jquery-ui.min.js",
+
+              "src/assets/lib/foundation.min.js",
+
+              "src/assets/lib/jquery.nice-select.js",
+
+              "src/assets/lib/slick.min.js",
+
+              "src/assets/lib/jquery.validate.min.js",
+
+              "src/assets/lib/foundation.accordion.js",
+
+              "src/assets/lib/jquery/jquery.zoom.min.js",
+                
+              "src/assets/lib/owl.carousel.min.js",
+
+
+              "src/assets/lib/modernizr.min.js",
+
+              "src/assets/lib/SpritTextJS.min.js",
+
+              "src/assets/lib/selectric.min.js",
+
+              "src/assets/lib/TweenMax.js",
+
+              "src/assets/lib/fancybox.min.js",
+
+              "src/assets/lib/ajaxzip3.js",
+
+              "src/assets/js/dist/home.js" ,
+              "src/assets/js/dist/app.js" ,
+              "src/assets/lib/loading-attribute-polyfill.umd.js"
+
+            ]
           },
           "configurations": {
             "production": {
@@ -87,12 +140,68 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/fancybox.min.css",
+              "src/assets/css/glide.core.min.css",
+              "src/assets/css/loading-attribute-polyfill.css",
+              "src/assets/css/nice-select.css",
+              "src/assets/css/owl.carousel.min.css",
+              "src/assets/css/picker.min.css",
+              "src/assets/css/plyr.min.css",
+              "src/assets/css/storefront.css",
+              "src/assets/css/style.css",
+              "src/assets/css/swiper-bundle.min.css",
+              "src/assets/css/swiper.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/index.js",
+               "src/assets/lib/jquery/jquery-3.6.0.min.js",
+               "src/assets/lib/jquery-3.6.0.min.js",
+               "src/assets/lib/swiper-bundle.min.js",
+               "src/assets/lib/textZoomEvent.js",
+
+              "src/assets/lib/accessibility.js",
+
+              "src/assets/lib/jquery/ui/jquery-ui.min.js",
+
+              "src/assets/lib/foundation.min.js",
+
+              "src/assets/lib/jquery.nice-select.js",
+
+              "src/assets/lib/slick.min.js",
+
+              "src/assets/lib/jquery.validate.min.js",
+
+              "src/assets/lib/foundation.accordion.js",
+
+              "src/assets/lib/jquery/jquery.zoom.min.js",
+                
+              "src/assets/lib/owl.carousel.min.js",
+
+
+              "src/assets/lib/modernizr.min.js",
+
+              "src/assets/lib/SpritTextJS.min.js",
+
+              "src/assets/lib/selectric.min.js",
+
+              "src/assets/lib/TweenMax.js",
+
+              "src/assets/lib/fancybox.min.js",
+
+              "src/assets/lib/ajaxzip3.js",
+
+              "src/assets/js/dist/home.js" ,
+              "src/assets/js/dist/app.js" ,
+              "src/assets/lib/loading-attribute-polyfill.umd.js"
+
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "c2846bb3-10b4-4a3a-941b-ed452728a348"
   }
 }
