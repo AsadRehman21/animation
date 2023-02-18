@@ -873,17 +873,9 @@ html {
 /* --------------------------------------------------------------------------
   HEADER
 -----------------------------------------------------------------------------*/
-.de-home-hero {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
 
-@media (max-width: 580px) {
-  .de-home-hero {
-    overflow: hidden;
-    padding-top: 2.5rem;
-  }
-}
+
+
 
 /* GRADIENT BOX ================== */
 .de-home-hero {
@@ -896,7 +888,6 @@ html {
   position: absolute;
   top: 0;
   right: 0;
-
   overflow: hidden;
 }
 
@@ -907,17 +898,7 @@ html {
   }
 }
 
-.de-home-hero .de-gradient-box .de-inner {
-  background: #FFF;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  transition: all 1.5s ease-in-out;
-}
 
-.js-animate .de-gradient-box .de-inner {
-  transform: translateX(100%);
-}
 
 /* PROMO ================== */
 .de-home-hero .de-promo {
@@ -925,6 +906,28 @@ html {
   margin-bottom: 3rem;
 }
 
+ .de-quote {
+   position: fixed; 
+  transform-origin: top left; 
+   padding-bottom: 2rem; 
+   transform: rotate(90deg) translateY(-100%); 
+   top: 166px; 
+   font-size: 1.4rem; 
+   font-weight: 700; 
+}
+
+ .de-quote {
+    transform-origin: top left;
+    left: 0;
+    position: fixed;
+    transform-origin: top left;
+    left: 0;
+    padding-bottom: 2rem;
+    transform: rotate(90deg) translateY(-100%);
+    top: 166px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
 @media (max-width: 580px) {
   .de-home-hero .de-promo {
     margin-bottom: 2rem;
@@ -997,9 +1000,7 @@ html {
     left: -3rem;
   }
 
-  .de-home-hero .de-collage-wrapper .de-large-image .de-cropped-image-wrapper {
-    padding-bottom: 70%;
-  }
+
 }
 
 .de-home-hero .de-collage-wrapper .de-small-image {
@@ -1029,10 +1030,7 @@ html {
   }
 }
 
-.de-home-hero .de-collage-wrapper .de-small-image .de-cropped-image-wrapper {
-  width: 100%;
-  padding-bottom: 100%;
-}
+
 
 .js-animate .de-collage-wrapper .de-small-image {
   transform: translate(0, -50%);
@@ -1160,13 +1158,7 @@ html {
   display: block;
 }
 
-.de-featured-squares .de-cropped-image-wrapper {
-  padding-bottom: 100%;
-}
 
-.de-featured-squares .de-cropped-image-wrapper img {
-  object-fit: contain;
-}
 
 /* ALTERNATING GRID ================== */
 @media (min-width: 1025px) {
@@ -1272,21 +1264,7 @@ html {
   background: #E5F5FC;
 }
 
-.de-image-divider .de-cropped-image-wrapper {
-  padding-bottom: 31%;
-}
 
-@media (max-width: 1024px) and (min-width: 581px) {
-  .de-image-divider .de-cropped-image-wrapper {
-    padding-bottom: 52%;
-  }
-}
-
-@media (max-width: 580px) {
-  .de-image-divider .de-cropped-image-wrapper {
-    padding-bottom: 100%;
-  }
-}
 
 /* --------------------------------------------------------------------------
   SUSPICIOUS SIX
@@ -1685,9 +1663,7 @@ html {
   }
 }
 
-.de-home-outro .de-founder .de-cropped-image-wrapper {
-  padding-bottom: 130%;
-}
+
 
 .de-home-outro .de-founder h5 {
   margin-bottom: 3rem;
@@ -1765,9 +1741,6 @@ html {
   margin-bottom: 1rem;
 }
 
-.de-home-outro .de-drunk-life .de-cropped-image-wrapper {
-  padding-bottom: 100%;
-}
 
 .de-home-outro .de-drunk-life .de-btn {
   display: inline-block;
@@ -1959,16 +1932,6 @@ html {
   }
 }
 
-.de-home .de-home-hero .de-gradient-box {
-  width: calc(100% - 6rem);
-}
-
-@media (max-width: 580px) {
-  .de-home .de-home-hero .de-gradient-box {
-    width: 100%;
-    height: 15rem;
-  }
-}
 
 .de-home .de-featured-squares {
   color: #5b5d63;
