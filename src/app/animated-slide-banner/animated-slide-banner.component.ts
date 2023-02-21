@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { animate, animateChild, group, query, state, style, transition, trigger } from '@angular/animations';
+import { animate, animateChild, group, keyframes, query, state, style, transition, trigger } from '@angular/animations';
 @Component({
   selector: 'app-animated-slide-banner',
   templateUrl: './animated-slide-banner.component.html',
@@ -16,51 +16,52 @@ import { animate, animateChild, group, query, state, style, transition, trigger 
 
     ]),
     trigger('slideUp', [
-      transition(':enter', [
+     transition('void => *', [
         style({
-          transform: "translateY(-100%)"
-
+        
         }),
-        animate('1s .5ms cubic-bezier(.34,.615,.4,.985)')
+        animate('3s 0.5ms', keyframes([
+          style({ opacity: '0%', offset: 0 }),
+          style({  opacity: '51%', offset: 0.2 }),
+          style({ opacity: '100%', offset: 0.5 }),
+          style({  opacity: '51%', offset: 1 })
+        ]))
       ])
 
     ]),
     trigger('slideLeft', [
-      transition(':enter', [
+      transition('void => *', [
         style({
-          transform: "translateX(-100%)"
-
+        
         }),
-        animate('1s 0.5ms cubic-bezier(.34,.615,.4,.985)')
+        animate('3s 0.5ms', keyframes([
+          style({ opacity: '0%', offset: 0 }),
+          style({  opacity: '51%', offset: 0.2 }),
+          style({ opacity: '100%', offset: 0.5 }),
+          style({  opacity: '51%', offset: 1 })
+        ]))
       ])
+      
     ]),
-
     trigger('swipeDown', [
       transition(':enter', [
-        animate('0.3s ease-in-out'),
-        style({
-          transform: "translateY(-30%)"
-
-        }),
-        group([
-          query('@slideUp', animateChild())
-        ]),
-      ]),
-    ]),
+  style({transform: 'translateY(30%)'}),
+  animate('0.9s ease-in-out', style({transform: 'translateY(0%)'})),
+  group([
+    query('@slideUp', animateChild())
+  ]),
+])
+])
+    ,
     trigger('swipeLeft', [
-      transition(':enter', [
-        animate('0.3s ease-in-out'),
-        style({
-          transform: "translateX(-30%)"
-
-        }),
-        group([
-          query('@slideLeft', animateChild())
-        ]),
-      ])
-
-    ])
-
+        transition(':enter', [
+    style({transform: 'translateX(30%)'}),
+    animate('0.9s ease-in-out', style({transform: 'translateX(0%)'})),
+    group([
+      query('@slideLeft', animateChild())
+    ]),
+  ])
+])
 
   ]
 })

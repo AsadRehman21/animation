@@ -979,8 +979,9 @@ html {
 }
 
 .de-home-hero .de-collage-wrapper .de-large-image {
-  display: block;
   max-width: 70.8rem;
+
+  
 }
 
 @media (max-width: 1024px) and (min-width: 581px) {
@@ -1009,7 +1010,6 @@ html {
   position: absolute;
   top: 50%;
   right: 0;
-  transform: translate(120%, -50%);
   z-index: 3;
   display: block;
 }
@@ -1185,20 +1185,7 @@ html {
     position: relative;
   }
 
-  .de-featured-squares .de-image-col .arrow-down,
-  .de-featured-squares .de-text-col .arrow-down {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    z-index: 3;
-    transform: translate(-50%, 97%);
-    width: 0;
-    height: 0;
-    border-left: 6rem solid transparent;
-    border-right: 6rem solid transparent;
-    border-top: 4.8rem solid;
-  }
+
 }
 
 @media (max-width: 1024px) and (max-width: 580px) {
@@ -1580,16 +1567,7 @@ html {
   }
 }
 
-.de-drunk-in-love-slider .swiper-btn-next,
-.de-drunk-in-love-slider .swiper-btn-prev {
-  cursor: pointer;
-  width: 11rem;
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translate(-120%, -50%);
-  z-index: 1;
-}
+
 
 .de-drunk-in-love-slider .swiper-btn-next:focus,
 .de-drunk-in-love-slider .swiper-btn-prev:focus {
@@ -1606,11 +1584,7 @@ html {
   }
 }
 
-.de-drunk-in-love-slider .swiper-btn-next {
-  right: 0;
-  left: auto;
-  transform: scaleX(-1) translate(-120%, -50%);
-}
+
 
 @media (max-width: 580px) {
   .de-drunk-in-love-slider .swiper-btn-next {
