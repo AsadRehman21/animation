@@ -17,29 +17,19 @@ import { animate, animateChild, group, keyframes, query, state, style, transitio
     ]),
     trigger('slideUp', [
      transition('void => *', [
-        style({
-        
-        }),
-        animate('3s 0.5ms', keyframes([
-          style({ opacity: '0%', offset: 0 }),
-          style({  opacity: '51%', offset: 0.2 }),
-          style({ opacity: '100%', offset: 0.5 }),
-          style({  opacity: '51%', offset: 1 })
-        ]))
+      style({
+        transform: 'translateY(-100%)'
+      }),
+      animate('1s 0.5ms')
       ])
 
     ]),
     trigger('slideLeft', [
       transition('void => *', [
         style({
-        
+          transform: 'translateX(-100%)'
         }),
-        animate('3s 0.5ms', keyframes([
-          style({ opacity: '0%', offset: 0 }),
-          style({  opacity: '51%', offset: 0.2 }),
-          style({ opacity: '100%', offset: 0.5 }),
-          style({  opacity: '51%', offset: 1 })
-        ]))
+        animate('1s 0.5ms')
       ])
       
     ]),
