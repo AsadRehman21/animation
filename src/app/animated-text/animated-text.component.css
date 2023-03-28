@@ -1,0 +1,75 @@
+.de-marquee-text {
+    padding-top: 4.5rem;
+    padding-bottom: 2.6rem;
+    position: relative;
+    z-index: 4;
+    font-size: 14.814rem;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 1;
+    animation: fadeInMarquee .4s cubic-bezier(.49,.025,.65,.65);
+}
+.de-en {
+    font-family: "Brown", sans-serif;
+}
+.de-home-hero .de-marquee-text .de-marquee__inner {
+    animation: marquee 10s linear, fade-in 2s ease;
+}
+
+.de-marquee__inner {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: marquee 5s linear;
+}
+
+.de-marquee-text span {
+    color: #4A4A4A;
+    line-height: 1.12;
+}
+
+.de-marquee-text span {
+    padding: 0 5rem;
+    white-space: nowrap;
+}
+
+ .de-collection-description {
+    font-size: 2.42rem;
+}
+
+.de-collection-description {
+    max-width: 41rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    line-height: 1.2;
+}
+
+.de-link-wrapper {
+    text-align: center;
+}
+.de-btn--lined {
+    font-size: 2.9rem;
+}
+.de-btn--lined {
+    font-weight: normal;
+    letter-spacing: 0;
+}
+.de-template-index main a {
+    color: #5B5D63;
+}
+
+.de-btn--lined {
+    text-align: center;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}

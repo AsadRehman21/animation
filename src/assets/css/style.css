@@ -28603,22 +28603,8 @@ screen and (max-width:36.24875em) {
     }
 }
 
-.colorway-solid-black.de-registration .de-marquee-text {
-    line-height: 1.1;
-    padding-top: 5rem;
-    padding-bottom: 8.3rem
-}
 
-@media(max-width:580px) {
-    .colorway-solid-black.de-registration .de-marquee-text {
-        padding-top: 3.1rem;
-        padding-bottom: 4rem
-    }
-}
 
-.colorway-solid-black.de-registration .de-marquee-text span {
-    color: #4a4a4a
-}
 
 .colorway-solid-black.de-registration .column .columns,
 .colorway-solid-black.de-registration .columns .columns {
@@ -39433,23 +39419,8 @@ screen and (max-width:64.06125em) {
     margin-bottom: 1rem
 }
 
-.colorway-solid-black .de-marquee-text {
-    padding-top: 8.1rem;
-    padding-bottom: 8.6rem
-}
 
-.colorway-solid-black .de-marquee-text span {
-    color: #87e873
-}
 
-@media(max-width:580px) {
-    .colorway-solid-black .de-marquee-text {
-        padding-top: 3.1rem;
-        padding-bottom: 4rem;
-        font-weight: 300;
-        font-size: 5rem
-    }
-}
 
 .colorway-solid-black main p {
     font-size: 1.5rem;
@@ -58131,23 +58102,7 @@ h6 {
     line-height: 1
 }
 
-.de-marquee-text {
-    font-size: 14.814rem;
-    font-weight: 300;
-    letter-spacing: 0
-}
 
-@media(max-width:1024px) and (min-width:581px) {
-    .de-marquee-text {
-        font-size: 7.2rem
-    }
-}
-
-@media(max-width:580px) {
-    .de-marquee-text {
-        font-size: 3.914rem
-    }
-}
 
 .de-h1-sans,
 h1 {
@@ -62822,21 +62777,8 @@ button.de-text-only {
     transform: translateX(-50%)
 }
 
-.de-marquee-text {
-    position: relative;
-    overflow: hidden;
-    padding-top: 6.8rem;
-    padding-bottom: 6rem;
-    line-height: 1;
-    animation: fadeInMarquee .4s cubic-bezier(.49, .025, .65, .65)
-}
 
-@media(max-width:580px) {
-    .de-marquee-text {
-        padding-top: 4rem;
-        padding-bottom: 3.5rem
-    }
-}
+
 
 .de-marquee__inner {
     width: -webkit-fit-content;
@@ -62858,9 +62800,7 @@ button.de-text-only {
     animation: marquee 12s linear
 }
 
-.de-marquee__inner.de-super-slow {
-    animation: marquee 15s linear
-}
+
 
 .de-marquee-alternate .de-marquee__inner {
     animation: marquee-alternate 20s linear infinite
@@ -62872,22 +62812,6 @@ button.de-text-only {
 
 .de-marquee-alternate .de-marquee__inner.de-slow {
     animation: marquee-alternate 20s linear infinite
-}
-
-.de-marquee-alternate .de-marquee__inner.de-super-slow {
-    animation: marquee-alternate 30s linear infinite
-}
-
-.de-marquee-text span {
-    padding: 0 5rem;
-    color: #fff;
-    white-space: nowrap
-}
-
-@media(max-width:580px) {
-    .de-marquee-text span {
-        padding: 0 2.5rem
-    }
 }
 
 .de-marquee-text.de-outlined-text {
@@ -62937,11 +62861,6 @@ button.de-text-only {
     }
 }
 
-@media(prefers-reduced-motion:reduce) {
-    .de-marquee-text .de-marquee__inner {
-        animation: none
-    }
-}
 
 @keyframes fadeInMarquee {
     0% {
@@ -63009,7 +62928,6 @@ button.de-text-only {
 }
 
 [data-anim=slide] {
-    opacity: 0;
     transform: translateY(2rem);
     transition: all .8s cubic-bezier(.34, .615, .4, .985)
 }
@@ -71936,22 +71854,6 @@ body {
 
 .de-template-product main {}
 
-.de-template-product main .de-marquee-text {
-    font-size: 14.814rem;
-    font-size: 12.9493006993vmin
-}
-
-@media(min-width:1025px) and (orientation:portrait) {
-    .de-template-product main .de-marquee-text {
-        font-size: 10.3594405594vmin
-    }
-}
-
-@media(max-width:580px) {
-    .de-template-product main .de-marquee-text {
-        font-size: 4rem
-    }
-}
 
 .de-template-product main .de-h1-sans,
 .de-template-product main h1 {
@@ -81242,10 +81144,7 @@ screen and (max-width:36.24875em) {
 }
 
 @media(max-width:580px) {
-    .text-zoom-110 .de-marquee-text span {
-        padding: 0 1rem;
-        letter-spacing: -.5rem
-    }
+
 
     .text-zoom-110 .page-info-page .content-wrapper .desc {
         max-width: 21rem
