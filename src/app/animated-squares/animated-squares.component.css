@@ -1,0 +1,46 @@
+.de-btn--lined {
+    margin-top: 2.5rem;
+    font-weight: 900;
+    font-size: 3rem;
+    color: #5b5d63;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    line-height: 1.3
+}
+
+.de-btn--lined::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background-color: #979797;
+    transition: all .8s cubic-bezier(.19, 1, .22, 1);
+    animation: blink 1s infinite .8s
+}
+
+.de-btn--lined::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background-color: #979797;
+    transition: all .8s cubic-bezier(.19, 1, .22, 1)
+}
+
+.de-btn--lined:hover::before {
+    height: 0;
+    animation: none
+}
+
+.de-btn--lined:hover::after {
+    width: 100%
+}

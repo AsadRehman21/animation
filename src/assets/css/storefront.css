@@ -1881,30 +1881,30 @@ html {
 
 
 
-.de-home .de-featured-squares {
+ .de-featured-squares {
   color: #5b5d63;
 }
 
 @media (max-width: 580px) {
-  .de-home .de-featured-squares .image-col {
+  .de-featured-squares .image-col {
     padding: 4.7rem;
   }
 }
 
 @media (max-width: 580px) {
-  .de-home .de-featured-squares .de-text-col {
-    padding: 4.6rem 3rem 3.5rem;
+  .de-featured-squares .de-text-col {
+   padding: 4.6rem 3rem 3.5rem;
   }
 }
 
 @media (min-width: 1025px) and (max-width: 1440px) {
 
-  .de-home .de-featured-squares h2.de-h2-sans--bold,
-  .de-home .de-suspicious-six h2.de-h2-sans--bold {
+   .de-featured-squares h2.de-h2-sans--bold,
+   .de-suspicious-six h2.de-h2-sans--bold {
     font-size: 5.81rem;
   }
 
-  .de-home .de-featured-squares .de-desc {
+  .de-featured-squares .de-desc {
     font-size: 3.40rem;
   }
 
@@ -1912,17 +1912,17 @@ html {
 }
 
 @media (min-width: 1440px) {
-  .de-home .de-featured-squares .de-desc {
+ .de-featured-squares .de-desc {
     font-size: 3.5rem;
   }
 }
 
 @media (max-width: 580px) {
-  .de-home .de-featured-squares .de-desc {
+   .de-featured-squares .de-desc {
     font-size: 2.2rem;
   }
 
-  .de-home .de-featured-squares .de-desc span {
+   .de-featured-squares .de-desc span {
     display: inline;
     margin-left: -0.5rem;
   }
