@@ -1187,14 +1187,13 @@ html {
 }
 
 /* ANIMATION ================== */
-.de-featured-squares .de-sliding-bg {
+ .de-sliding-bg {
   position: absolute;
   z-index: -1;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
-  transition: 1.1s transform cubic-bezier(0.34, 0.615, 0.4, 0.985);
 }
 
 .de-featured-squares .de-featured-row:nth-of-type(odd) .de-image-col .de-sliding-bg {

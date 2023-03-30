@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { AnimatedSlideBannerComponent } from './animated-slide-banner/animated-slide-banner.component';
 import { AnimatedTextComponent } from './animated-text/animated-text.component';
 import { AnimatedSquaresComponent } from './animated-squares/animated-squares.component';
+import { AppearModule } from './appear/appear.module';
 
 @NgModule({
   declarations: [
@@ -18,8 +19,10 @@ import { AnimatedSquaresComponent } from './animated-squares/animated-squares.co
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AppearModule
   ],
+
   providers: [],
   bootstrap: [AppComponent]
 })
