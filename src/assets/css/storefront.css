@@ -23,43 +23,43 @@ $laptop-height: 800px;*/
 Hide / Show
 -----------------------------------------------------------------------------*/
 @media (min-width: 581px) {
-  .de-show-mobile {
-    display: none !important;
-  }
+    .de-show-mobile {
+        display: none !important;
+    }
 }
 
 @media (max-width: 580px) {
-  .de-show-mobile {
-    display: block !important;
-  }
+    .de-show-mobile {
+        display: block !important;
+    }
 }
 
 @media (max-width: 580px) {
-  .de-hide-mobile {
-    display: none !important;
-  }
+    .de-hide-mobile {
+        display: none !important;
+    }
 }
 
 @media (min-width: 1025px) {
-  .de-show-tablet-down {
-    display: none !important;
-  }
+    .de-show-tablet-down {
+        display: none !important;
+    }
 }
 
 @media (max-width: 1024px) {
-  .de-show-tablet-down {
-    display: block;
-  }
+    .de-show-tablet-down {
+        display: block;
+    }
 }
 
 @media (max-width: 1024px) {
-  .de-hide-tablet-down {
-    display: none !important;
-  }
+    .de-hide-tablet-down {
+        display: none !important;
+    }
 }
 
 .de-hide {
-  display: none !important;
+    display: none !important;
 }
 
 /*================ COMMON ================*/
@@ -148,12 +148,12 @@ u,
 ul,
 var,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -168,41 +168,41 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
+    display: block;
 }
 
 body {
-  line-height: 1;
+    line-height: 1;
 }
 
 ol,
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 blockquote,
 q {
-  quotes: none;
+    quotes: none;
 }
 
 blockquote:after,
 blockquote:before,
 q:after,
 q:before {
-  content: '';
-  content: none;
+    content: '';
+    content: none;
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /*================ Slate specific reset ================*/
 *,
 *::after,
 *::before {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body,
@@ -210,40 +210,40 @@ button,
 input,
 select,
 textarea {
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
 }
 
 a:focus {
-  color: inherit;
+    color: inherit;
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 /*================ Form element helpers ================*/
 form {
-  margin: 0;
+    margin: 0;
 }
 
 @media screen and (max-width: 768px) {
 
-  input,
-  select,
-  textarea {
-    font-size: 16px;
-  }
+    input,
+    select,
+    textarea {
+        font-size: 16px;
+    }
 }
 
 button,
 input[type='submit'],
 label[for] {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 [tabindex='-1']:focus {
-  outline: none;
+    outline: none;
 }
 
 /*============================================================================
@@ -257,8 +257,8 @@ select,
 textarea,
 a,
 button {
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
 }
 
 /*================ SETTINGS ================*/
@@ -274,43 +274,43 @@ Colors
   ANIMATION
 -----------------------------------------------------------------------------*/
 html h2 {
-  text-transform: none;
+    text-transform: none;
 }
 
 html a {
-  overflow: unset;
+    overflow: unset;
 }
 
 html #main {
-  position: relative;
+    position: relative;
 }
 
 html .de-en {
-  font-family: "Brown", sans-serif;
+    font-family: "Brown", sans-serif;
 }
 
 html .de-en-cap {
-  font-family: "Brown", sans-serif;
-  font-size: 110%;
+    font-family: "Brown", sans-serif;
+    font-size: 110%;
 }
 
 html .de-en-sainte {
-  font-family: "Sainte Colombe";
+    font-family: "Sainte Colombe";
 }
 
 html .de-en-sainte-cap {
-  font-family: "Sainte Colombe";
-  font-size: 110%;
+    font-family: "Sainte Colombe";
+    font-size: 110%;
 }
 
 html .de-on {
-  opacity: 1;
-  transition: all 0.3s;
+    opacity: 1;
+    transition: all 0.3s;
 }
 
 html .de-off {
-  opacity: 0;
-  transition: all 0.3s;
+    opacity: 0;
+    transition: all 0.3s;
 }
 
 /* --------------------------------------------------------------------------
@@ -324,34 +324,34 @@ Typography
 -----------------------------------------------------------------------------*/
 
 body {
-  background-color: #FFF;
-  font-family: "Brown", "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
-  font-size: 1.6rem;
-  color: #4A4A4A;
-  line-height: 1.4375;
-  letter-spacing: 0;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -webkit-font-smoothing: antialiased;
+    background-color: #FFF;
+    font-family: "Brown", "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
+    font-size: 1.6rem;
+    color: #4A4A4A;
+    line-height: 1.4375;
+    letter-spacing: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-font-smoothing: antialiased;
 }
 
 @media (max-width: 580px) {
-  body {
-    font-size: 1.4rem;
-  }
+    body {
+        font-size: 1.4rem;
+    }
 }
 
 /* --------------------------------------------------------------------------
 Anchors
 -----------------------------------------------------------------------------*/
 a {
-  color: #4A4A4A;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
+    color: #4A4A4A;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
 }
 
 a:active,
 a:hover {
-  color: #313131;
+    color: #313131;
 }
 
 /* --------------------------------------------------------------------------
@@ -363,238 +363,238 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: normal;
-  font-style: normal;
-  line-height: 1;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
 }
 
 .de-marquee-text {
-  font-size: 14.814rem;
-  font-family: "Brown", "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
-  font-weight: 300;
-  letter-spacing: 0;
+    font-size: 14.814rem;
+    font-family: "Brown", "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
+    font-weight: 300;
+    letter-spacing: 0;
 }
 
 @media (max-width: 1024px) and (min-width: 581px) {
-  .de-marquee-text {
-    font-size: 7.2rem;
-  }
+    .de-marquee-text {
+        font-size: 7.2rem;
+    }
 }
 
 @media (max-width: 580px) {
-  .de-marquee-text {
-    font-size: 3.914rem;
-  }
+    .de-marquee-text {
+        font-size: 3.914rem;
+    }
 }
 
 /* H1 SANS ================== */
 .de-h1-sans,
 h1 {
-  letter-spacing: -.049rem;
-  font-size: 12rem;
-  font-family: "Brown", "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
-  font-weight: 700;
-  line-height: 1.1583333333;
+    letter-spacing: -.049rem;
+    font-size: 12rem;
+    font-family: "Brown", "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
+    font-weight: 700;
+    line-height: 1.1583333333;
 }
 
 @media (max-width: 580px) {
 
-  .de-h1-sans,
-  h1 {
-    font-size: 4.4rem;
-    letter-spacing: -0.18px;
-    letter-spacing: -0.018rem;
-    line-height: 1.25;
-  }
+    .de-h1-sans,
+    h1 {
+        font-size: 4.4rem;
+        letter-spacing: -0.18px;
+        letter-spacing: -0.018rem;
+        line-height: 1.25;
+    }
 }
 
 /* H2 SANS ================== */
 .de-call-out,
 [class*="h2-sans"],
 h2 {
-  font-size: 6rem;
-  letter-spacing: -.011rem;
-  font-family: "Brown", "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
-  font-weight: 400;
-  line-height: 1.25;
+    font-size: 6rem;
+    letter-spacing: -.011rem;
+    font-family: "Brown", "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
+    font-weight: 400;
+    line-height: 1.25;
 }
 
 @media (max-width: 1024px) and (min-width: 581px) {
 
-  .de-call-out,
-  [class*="h2-sans"],
-  h2 {
-    font-size: 3.7rem;
-    letter-spacing: -.011rem;
-    line-height: 1.6486486486;
-  }
+    .de-call-out,
+    [class*="h2-sans"],
+    h2 {
+        font-size: 3.7rem;
+        letter-spacing: -.011rem;
+        line-height: 1.6486486486;
+    }
 }
 
 @media (max-width: 580px) {
 
-  .de-call-out,
-  [class*="h2-sans"],
-  h2 {
-    font-size: 3.6rem;
-    letter-spacing: -0.006rem;
-    line-height: 1.1111111111;
-  }
+    .de-call-out,
+    [class*="h2-sans"],
+    h2 {
+        font-size: 3.6rem;
+        letter-spacing: -0.006rem;
+        line-height: 1.1111111111;
+    }
 }
 
 .de-call-out.de-h2-sans--bold,
 [class*="h2-sans"].de-h2-sans--bold,
 h2.de-h2-sans--bold {
-  font-weight: 700;
-  letter-spacing: 0;
-  line-height: 1.0833333333;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.0833333333;
 }
 
 @media (max-width: 1024px) and (min-width: 581px) {
 
-  .de-call-out.de-h2-sans--bold,
-  [class*="h2-sans"].de-h2-sans--bold,
-  h2.de-h2-sans--bold {
-    font-size: 5.5rem;
-    line-height: 1.0909090909;
-  }
+    .de-call-out.de-h2-sans--bold,
+    [class*="h2-sans"].de-h2-sans--bold,
+    h2.de-h2-sans--bold {
+        font-size: 5.5rem;
+        line-height: 1.0909090909;
+    }
 }
 
 @media (max-width: 580px) {
 
-  .de-call-out.de-h2-sans--bold,
-  [class*="h2-sans"].de-h2-sans--bold,
-  h2.de-h2-sans--bold {
-    font-size: 3.6rem;
-    letter-spacing: -0.006rem;
-    line-height: 1.1388888889;
-  }
+    .de-call-out.de-h2-sans--bold,
+    [class*="h2-sans"].de-h2-sans--bold,
+    h2.de-h2-sans--bold {
+        font-size: 3.6rem;
+        letter-spacing: -0.006rem;
+        line-height: 1.1388888889;
+    }
 }
 
 /* H3 SANS ================== */
 .de-h3-sans,
 h3 {
-  font-size: 5.2rem;
-  font-family: "Brown", "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
-  font-weight: 400;
-  letter-spacing: 0;
+    font-size: 5.2rem;
+    font-family: "Brown", "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
 }
 
 @media (max-width: 580px) {
 
-  .de-h3-sans,
-  h3 {
-    font-size: 3.5rem;
-  }
+    .de-h3-sans,
+    h3 {
+        font-size: 3.5rem;
+    }
 }
 
 /* H4 SANS ================== */
 .de-h4-sans,
 h4 {
-  font-size: 4.5rem;
-  letter-spacing: 0.44rem;
-  font-family: "Brown", "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
+    font-size: 4.5rem;
+    letter-spacing: 0.44rem;
+    font-family: "Brown", "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 @media (max-width: 580px) {
 
-  .de-h4-sans,
-  h4 {
-    font-size: 2.6rem;
-    letter-spacing: 0.254rem;
-  }
+    .de-h4-sans,
+    h4 {
+        font-size: 2.6rem;
+        letter-spacing: 0.254rem;
+    }
 }
 
 /* H5 SANS ================== */
 .de-h5-sans,
 h5 {
-  font-size: 4.4rem;
-  font-family: "Brown", "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
-  font-weight: 700;
-  letter-spacing: 0;
+    font-size: 4.4rem;
+    font-family: "Brown", "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0;
 }
 
 @media (max-width: 580px) {
 
-  .de-h5-sans,
-  h5 {
-    font-size: 3.5rem;
-  }
+    .de-h5-sans,
+    h5 {
+        font-size: 3.5rem;
+    }
 }
 
 /* H6 SANS ================== */
 .de-h6-sans,
 h6 {
-  font-size: 2rem;
-  letter-spacing: 0.144rem;
-  text-transform: uppercase;
-  font-family: "Brown", "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
-  font-weight: 700;
-  line-height: 1.25;
+    font-size: 2rem;
+    letter-spacing: 0.144rem;
+    text-transform: uppercase;
+    font-family: "Brown", "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
+    font-weight: 700;
+    line-height: 1.25;
 }
 
 @media (max-width: 580px) {
 
-  .de-h6-sans,
-  h6 {
-    font-size: 1.8rem;
-    letter-spacing: 0.144rem;
-  }
+    .de-h6-sans,
+    h6 {
+        font-size: 1.8rem;
+        letter-spacing: 0.144rem;
+    }
 }
 
 /* H1 SERIF ================== */
 .de-h1-serif,
 h1.de-serif {
-  font-size: 13rem;
-  font-family: "Sainte Colombe", "Noto Serif JP", serif;
-  font-weight: 500;
-  letter-spacing: 0;
+    font-size: 13rem;
+    font-family: "Sainte Colombe", "Noto Serif JP", serif;
+    font-weight: 500;
+    letter-spacing: 0;
 }
 
 @media (max-width: 580px) {
 
-  .de-h1-serif,
-  h1.de-serif {
-    font-size: 5.5rem;
-  }
+    .de-h1-serif,
+    h1.de-serif {
+        font-size: 5.5rem;
+    }
 }
 
 /* H2 SERIF ================== */
 .de-h2-serif,
 h2.de-serif {
-  font-size: 6rem;
-  font-family: "Sainte Colombe", "Noto Serif JP", serif;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: 1.3833333333;
-  text-transform: none;
+    font-size: 6rem;
+    font-family: "Sainte Colombe", "Noto Serif JP", serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.3833333333;
+    text-transform: none;
 }
 
 @media (max-width: 580px) {
 
-  .de-h2-serif,
-  h2.de-serif {
-    font-size: 3.3rem;
-    letter-spacing: 0;
-  }
+    .de-h2-serif,
+    h2.de-serif {
+        font-size: 3.3rem;
+        letter-spacing: 0;
+    }
 }
 
 /* H3 SERIF ================== */
 .de-dropdown-navigation,
 .de-h3-serif {
-  font-size: 1.7rem;
-  font-family: "Sainte Colombe", "Noto Serif JP", serif;
-  font-weight: 500;
-  letter-spacing: 0;
+    font-size: 1.7rem;
+    font-family: "Sainte Colombe", "Noto Serif JP", serif;
+    font-weight: 500;
+    letter-spacing: 0;
 }
 
 @media (max-width: 580px) {
 
-  .de-dropdown-navigation,
-  .de-h3-serif {
-    font-size: 1.7rem;
-  }
+    .de-dropdown-navigation,
+    .de-h3-serif {
+        font-size: 1.7rem;
+    }
 }
 
 /* --------------------------------------------------------------------------
@@ -602,180 +602,180 @@ Lists
 -----------------------------------------------------------------------------*/
 li,
 ul {
-  padding: 0;
-  list-style: none;
-  margin: 0;
+    padding: 0;
+    list-style: none;
+    margin: 0;
 }
 
 /* --------------------------------------------------------------------------
   Trademark & Superscript
 -----------------------------------------------------------------------------*/
 sup {
-  font-size: 0.7em;
-  position: relative;
-  top: -.45rem;
+    font-size: 0.7em;
+    position: relative;
+    top: -.45rem;
 }
 
 .de-call-out sup,
 .de-h2-sans sup {
-  font-size: 3rem;
-  position: relative;
-  top: -1.2rem;
-  left: 0;
+    font-size: 3rem;
+    position: relative;
+    top: -1.2rem;
+    left: 0;
 }
 
 @media (max-width: 580px) {
 
-  .de-call-out sup,
-  .de-h2-sans sup {
-    font-size: 1.8rem;
-  }
+    .de-call-out sup,
+    .de-h2-sans sup {
+        font-size: 1.8rem;
+    }
 }
 
 sup {
-  position: relative;
+    position: relative;
 }
 
 /* --------------------------------------------------------------------------
 Body Type
 -----------------------------------------------------------------------------*/
 .de-body-sans-1 {
-  font-size: 3.5rem;
-  letter-spacing: 0;
+    font-size: 3.5rem;
+    letter-spacing: 0;
 }
 
 @media (min-width: 1024px) and (max-width: 1440px) {
-  .de-body-sans-1 {
-    font-size: 3rem;
-  }
+    .de-body-sans-1 {
+        font-size: 3rem;
+    }
 }
 
 @media (max-width: 1024px) and (min-width: 581px) {
-  .de-body-sans-1 {
-    font-size: 3rem;
-  }
+    .de-body-sans-1 {
+        font-size: 3rem;
+    }
 }
 
 @media (max-width: 580px) {
-  .de-body-sans-1 {
-    font-size: 2.2rem;
-  }
+    .de-body-sans-1 {
+        font-size: 2.2rem;
+    }
 }
 
 .de-body-sans-1.de-body-sans-1--bold {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 [class*="de-body-sans-2"] {
-  font-size: 2.5rem;
-  letter-spacing: 0;
-  line-height: 1.84;
+    font-size: 2.5rem;
+    letter-spacing: 0;
+    line-height: 1.84;
 }
 
 @media (min-width: 1024px) and (max-width: 1440px) {
-  [class*="de-body-sans-2"] {
-    line-height: 1.8;
-  }
+    [class*="de-body-sans-2"] {
+        line-height: 1.8;
+    }
 }
 
 @media (max-width: 1024px) and (min-width: 581px) {
-  [class*="de-body-sans-2"] {
-    font-size: 2.2rem;
-    line-height: 1.8181818182;
-  }
+    [class*="de-body-sans-2"] {
+        font-size: 2.2rem;
+        line-height: 1.8181818182;
+    }
 }
 
 @media (max-width: 580px) {
-  [class*="de-body-sans-2"] {
-    font-size: 1.5rem;
-    line-height: 1.6;
-  }
+    [class*="de-body-sans-2"] {
+        font-size: 1.5rem;
+        line-height: 1.6;
+    }
 }
 
 [class*="de-body-sans-2"].de-body-sans-2--bold {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 [class*="de-body-sans-3"] {
-  font-size: 1.6rem;
-  font-family: "Brown", "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
-  font-weight: 400;
-  line-height: 1.4375;
-  letter-spacing: 0;
+    font-size: 1.6rem;
+    font-family: "Brown", "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
+    font-weight: 400;
+    line-height: 1.4375;
+    letter-spacing: 0;
 }
 
 @media (max-width: 1024px) {
-  [class*="de-body-sans-3"] {
-    font-size: 1.5rem;
-  }
+    [class*="de-body-sans-3"] {
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 580px) {
-  [class*="de-body-sans-3"] {
-    font-size: 1.4rem;
-    line-height: 1.7142857143;
-  }
+    [class*="de-body-sans-3"] {
+        font-size: 1.4rem;
+        line-height: 1.7142857143;
+    }
 }
 
 [class*="de-body-sans-3"].de-body-sans-3--bold {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 /* SUPER TINY TEXT */
 [class*="de-body-sans-4"] {
-  font-size: 1.1rem;
-  font-family: "Brown", "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: 1.3636363636;
+    font-size: 1.1rem;
+    font-family: "Brown", "游ゴシック", "Yu Gothic", "游ゴシック体", YuGothic, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.3636363636;
 }
 
 @media (max-width: 580px) {
-  [class*="de-body-sans-4"] {
-    font-size: 1.1rem;
-  }
+    [class*="de-body-sans-4"] {
+        font-size: 1.1rem;
+    }
 }
 
 /* SERIF  ================== */
 .de-body-serif-1 {
-  font-size: 3.5rem;
-  letter-spacing: 0;
-  font-family: "Sainte Colombe", "Noto Serif JP", serif;
-  line-height: 1.5714285714;
-  font-weight: 400;
+    font-size: 3.5rem;
+    letter-spacing: 0;
+    font-family: "Sainte Colombe", "Noto Serif JP", serif;
+    line-height: 1.5714285714;
+    font-weight: 400;
 }
 
 @media (max-width: 1024px) {
-  .de-body-serif-1 {
-    font-size: 2.5rem;
-  }
+    .de-body-serif-1 {
+        font-size: 2.5rem;
+    }
 }
 
 @media (max-width: 580px) {
-  .de-body-serif-1 {
-    font-size: 2rem;
-  }
+    .de-body-serif-1 {
+        font-size: 2rem;
+    }
 }
 
 .de-body-serif-2 {
-  font-size: 2rem;
-  letter-spacing: 0;
-  font-family: "Sainte Colombe", "Noto Serif JP", serif;
-  line-height: 1.45;
-  font-weight: 400;
+    font-size: 2rem;
+    letter-spacing: 0;
+    font-family: "Sainte Colombe", "Noto Serif JP", serif;
+    line-height: 1.45;
+    font-weight: 400;
 }
 
 @media (max-width: 1024px) {
-  .de-body-serif-2 {
-    font-size: 2.5rem;
-  }
+    .de-body-serif-2 {
+        font-size: 2.5rem;
+    }
 }
 
 @media (max-width: 580px) {
-  .de-body-serif-2 {
-    font-size: 1.2rem;
-    line-height: 1.6666666667;
-  }
+    .de-body-serif-2 {
+        font-size: 1.2rem;
+        line-height: 1.6666666667;
+    }
 }
 
 /* SERIF  ================== */
@@ -791,27 +791,27 @@ Body Type
 .de-body-sans-4 ol,
 .de-body-sans-4 p,
 .de-body-sans-4 ul {
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 .de-desc ul,
 .de-desc-large ul {
-  list-style: disc;
+    list-style: disc;
 }
 
 .de-desc ol,
 .de-desc-large ol {
-  list-style: decimal;
+    list-style: decimal;
 }
 
 .de-desc ol li,
 .de-desc-large ol li {
-  list-style: decimal;
+    list-style: decimal;
 }
 
 .de-desc em,
 .de-desc-large em {
-  font-style: italic;
+    font-style: italic;
 }
 
 /* --------------------------------------------------------------------------
@@ -819,23 +819,23 @@ Responsive Design
 -----------------------------------------------------------------------------*/
 /* TABLET ================== */
 @media (max-width: 1024px) and (min-width: 581px) {
-  html {
-    font-size: 1.25vw;
-  }
+    html {
+        font-size: 1.25vw;
+    }
 }
 
 /* Mobile ================== */
 @media (max-width: 580px) {
-  html {
-    font-size: 2.666666666666667vw;
-  }
+    html {
+        font-size: 2.666666666666667vw;
+    }
 }
 
 /* MONITOR ================== */
 @media only screen and (min-width: 1800px) {
-  html {
-    font-size: 13px;
-  }
+    html {
+        font-size: 13px;
+    }
 }
 
 /* --------------------------------------------------------------------------
@@ -844,30 +844,30 @@ TYPE VARIABLES FOR RESPONSIVE TEXT
 /*================ SETTINGS ================*/
 body,
 html {
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 /* --------------------------------------------------------------------------
   GENERAL
 -----------------------------------------------------------------------------*/
 .de-template-index main {
-  color: #5B5D63;
+    color: #5B5D63;
 }
 
 .de-template-index main a {
-  color: #5B5D63;
+    color: #5B5D63;
 }
 
 .de-template-index main .de-left-spacer {
-  margin-left: 6rem;
-  width: calc(100% - 6rem);
+    margin-left: 6rem;
+    width: calc(100% - 6rem);
 }
 
 @media (max-width: 580px) {
-  .de-template-index main .de-left-spacer {
-    margin-left: 0;
-    width: 100%;
-  }
+    .de-template-index main .de-left-spacer {
+        margin-left: 0;
+        width: 100%;
+    }
 }
 
 /* --------------------------------------------------------------------------
@@ -879,44 +879,44 @@ html {
 
 /* GRADIENT BOX ================== */
 .de-home-hero {
-  position: relative;
+    position: relative;
 }
 
 .de-home-hero .de-gradient-box {
-  width: calc(100vw - 6rem);
-  height: 30rem;
-  position: absolute;
-  top: 0;
-  right: 0;
-  overflow: hidden;
+    width: calc(100vw - 6rem);
+    height: 30rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
 }
 
 @media (max-width: 580px) {
-  .de-home-hero .de-gradient-box {
-    width: 100%;
-    height: 14rem;
-  }
+    .de-home-hero .de-gradient-box {
+        width: 100%;
+        height: 14rem;
+    }
 }
 
 
 
 /* PROMO ================== */
 .de-home-hero .de-promo {
-  text-align: center;
-  margin-bottom: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
 }
 
- .de-quote {
-   position: fixed; 
-  transform-origin: top left; 
-   padding-bottom: 2rem; 
-   transform: rotate(90deg) translateY(-100%); 
-   top: 166px; 
-   font-size: 1.4rem; 
-   font-weight: 700; 
+.de-quote {
+    position: fixed;
+    transform-origin: top left;
+    padding-bottom: 2rem;
+    transform: rotate(90deg) translateY(-100%);
+    top: 166px;
+    font-size: 1.4rem;
+    font-weight: 700;
 }
 
- .de-quote {
+.de-quote {
     transform-origin: top left;
     left: 0;
     position: fixed;
@@ -928,173 +928,174 @@ html {
     font-size: 1.4rem;
     font-weight: bold;
 }
+
 @media (max-width: 580px) {
-  .de-home-hero .de-promo {
-    margin-bottom: 2rem;
-    max-width: 21rem;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 0.96rem;
-    line-height: 1.1458333333;
-    letter-spacing: 0.082rem;
-  }
+    .de-home-hero .de-promo {
+        margin-bottom: 2rem;
+        max-width: 21rem;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 0.96rem;
+        line-height: 1.1458333333;
+        letter-spacing: 0.082rem;
+    }
 }
 
 /* QUOTE ================== */
 .de-template-index .de-quote {
-  transform-origin: top left;
-  left: 0;
-  position: fixed;
-  transform-origin: top left;
-  left: 0;
-  padding-bottom: 2rem;
-  transform: rotate(90deg) translateY(-100%);
-  top: 166px;
-  font-size: 1.4rem;
-  font-weight: bold;
+    transform-origin: top left;
+    left: 0;
+    position: fixed;
+    transform-origin: top left;
+    left: 0;
+    padding-bottom: 2rem;
+    transform: rotate(90deg) translateY(-100%);
+    top: 166px;
+    font-size: 1.4rem;
+    font-weight: bold;
 }
 
 @media (max-width: 1024px) and (min-width: 581px) {
-  .de-template-index .de-quote {
-    padding-bottom: 3.7rem;
-  }
+    .de-template-index .de-quote {
+        padding-bottom: 3.7rem;
+    }
 }
 
 @media (max-width: 580px) {
-  .de-template-index .de-quote {
-    display: none;
-  }
+    .de-template-index .de-quote {
+        display: none;
+    }
 }
 
 .de-template-index .de-quote span {
-  display: none;
+    display: none;
 }
 
 /* IMAGE COLLAGES ================== */
 .de-home-hero .de-collage-wrapper {
-  max-width: 89rem;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
+    max-width: 89rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 }
 
 .de-home-hero .de-collage-wrapper .de-large-image {
-  max-width: 70.8rem;
+    max-width: 70.8rem;
 
-  
+
 }
 
 @media (max-width: 1024px) and (min-width: 581px) {
-  .de-home-hero .de-collage-wrapper .de-large-image {
-    max-width: 51.3rem;
-    left: 9rem;
-  }
+    .de-home-hero .de-collage-wrapper .de-large-image {
+        max-width: 51.3rem;
+        left: 9rem;
+    }
 
-  .de-home-hero .de-collage-wrapper {
-    margin-left: 40px;
-  }
+    .de-home-hero .de-collage-wrapper {
+        margin-left: 40px;
+    }
 }
 
 @media (max-width: 580px) {
-  .de-home-hero .de-collage-wrapper .de-large-image {
-    width: calc(100% - 6rem);
-    left: -3rem;
-  }
+    .de-home-hero .de-collage-wrapper .de-large-image {
+        width: calc(100% - 6rem);
+        left: -3rem;
+    }
 
 
 }
 
 .de-home-hero .de-collage-wrapper .de-small-image {
-  width: 27.7rem;
-  height: 27.7rem;
-  position: absolute;
-  top: 50%;
-  right: 0;
-  z-index: 3;
-  display: block;
+    width: 27.7rem;
+    height: 27.7rem;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 3;
+    display: block;
 }
 
 @media (max-width: 1024px) and (min-width: 581px) {
-  .de-home-hero .de-collage-wrapper .de-small-image {
-    right: 2.4rem;
-    width: 20rem;
-    height: 20rem;
-  }
+    .de-home-hero .de-collage-wrapper .de-small-image {
+        right: 2.4rem;
+        width: 20rem;
+        height: 20rem;
+    }
 }
 
 @media (max-width: 580px) {
-  .de-home-hero .de-collage-wrapper .de-small-image {
-    width: 13rem;
-    height: 13rem;
-    right: 0;
-  }
+    .de-home-hero .de-collage-wrapper .de-small-image {
+        width: 13rem;
+        height: 13rem;
+        right: 0;
+    }
 }
 
 
 
 .js-animate .de-collage-wrapper .de-small-image {
-  transform: translate(0, -50%);
+    transform: translate(0, -50%);
 }
 
 /* MARQUEE ================== */
 .de-home-hero .de-marquee-text {
-  padding-top: 4.5rem;
-  padding-bottom: 2.6rem;
-  position: relative;
-  z-index: 4;
+    padding-top: 4.5rem;
+    padding-bottom: 2.6rem;
+    position: relative;
+    z-index: 4;
 }
 
 @media (max-width: 1024px) and (min-width: 581px) {
-  .de-home-hero .de-marquee-text {
-    margin-bottom: 3rem;
-  }
+    .de-home-hero .de-marquee-text {
+        margin-bottom: 3rem;
+    }
 }
 
 @media (max-width: 1024px) {
-  .de-home-hero .de-marquee-text {
-    padding-top: 0;
-    margin-top: 2.8rem;
-    font-size: 5.6rem;
-  }
+    .de-home-hero .de-marquee-text {
+        padding-top: 0;
+        margin-top: 2.8rem;
+        font-size: 5.6rem;
+    }
 }
 
 .de-home-hero .de-marquee-text .de-marquee__inner {
-  animation: marquee 10s linear, fade-in 2s ease;
+    animation: marquee 10s linear, fade-in 2s ease;
 }
 
 .de-home-hero .de-marquee-text span {
-  color: #4A4A4A;
-  line-height: 1.12;
+    color: #4A4A4A;
+    line-height: 1.12;
 }
 
 /* COLLECTION DESCRIPTION ================== */
 .de-home-hero .de-collection-description {
-  max-width: 41rem;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  margin-bottom: 2.5rem;
-  line-height: 1.2;
+    max-width: 41rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    line-height: 1.2;
 }
 
 @media (max-width: 580px) {
-  .de-home-hero .de-collection-description {
-    max-width: 69%;
-    margin: 0 auto 3rem;
-    font-size: 1.8rem;
-  }
+    .de-home-hero .de-collection-description {
+        max-width: 69%;
+        margin: 0 auto 3rem;
+        font-size: 1.8rem;
+    }
 }
 
 
 
 @keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
+    0% {
+        opacity: 0;
+    }
 
-  100% {
-    opacity: 1;
-  }
+    100% {
+        opacity: 1;
+    }
 }
 
 /* --------------------------------------------------------------------------
@@ -1102,118 +1103,118 @@ html {
 -----------------------------------------------------------------------------*/
 .de-featured-squares a,
 .de-featured-squares button {
-  color: #5B5D63;
+    color: #5B5D63;
 }
 
 .de-featured-squares h2 {
-  line-height: 1;
-  margin-bottom: 4.5rem;
+    line-height: 1;
+    margin-bottom: 4.5rem;
 }
 
 .de-featured-squares .de-desc {
-  line-height: 1.2;
-  margin-bottom: 5rem;
+    line-height: 1.2;
+    margin-bottom: 5rem;
 }
 
 .de-featured-squares .de-text-col {
-  padding: 9.4rem;
+    padding: 9.4rem;
 }
 
 @media (max-width: 580px) {
-  .de-featured-squares .de-text-col {
-    padding: 5rem 3.3rem 3.3rem;
-  }
+    .de-featured-squares .de-text-col {
+        padding: 5rem 3.3rem 3.3rem;
+    }
 }
 
 .de-featured-squares .de-image-col,
 .de-featured-squares .de-text-col {
-  position: relative;
-  overflow: hidden;
+    position: relative;
+    overflow: hidden;
 }
-1103,2: .de-featured-squares a,
+
 
 
 /* IMAGE FORMATTING ================== */
 .de-featured-squares .de-image-col {
-  padding: 5rem;
+    padding: 5rem;
 }
 
 .de-featured-squares .de-image-col a {
-  display: block;
+    display: block;
 }
 
 
 
 /* ALTERNATING GRID ================== */
 @media (min-width: 1025px) {
-  .de-featured-row {
-    display: -ms-flexbox;
-    display: flex;
-  }
+    .de-featured-row {
+        display: -ms-flexbox;
+        display: flex;
+    }
 
-  .de-featured-row>div {
-    width: 50%;
-  }
+    .de-featured-row>div {
+        width: 50%;
+    }
 
-  .de-featured-row:nth-of-type(even) {
-    -ms-flex-direction: row-reverse;
-    flex-direction: row-reverse;
-  }
+    .de-featured-row:nth-of-type(even) {
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+    }
 }
 
 /* BOTTOM ARROW ================== */
 @media (max-width: 1024px) {
 
-  .de-featured-squares .de-image-col,
-  .de-featured-squares .de-text-col {
-    position: relative;
-  }
+    .de-featured-squares .de-image-col,
+    .de-featured-squares .de-text-col {
+        position: relative;
+    }
 
 
 }
 
 @media (max-width: 1024px) and (max-width: 580px) {
 
-  .de-featured-squares .de-image-col .arrow-down,
-  .de-featured-squares .de-text-col .arrow-down {
-    border-left: 4rem solid transparent;
-    border-right: 4rem solid transparent;
-    border-top: 3rem solid;
-  }
+    .de-featured-squares .de-image-col .arrow-down,
+    .de-featured-squares .de-text-col .arrow-down {
+        border-left: 4rem solid transparent;
+        border-right: 4rem solid transparent;
+        border-top: 3rem solid;
+    }
 }
 
 .de-featured-squares .de-featured-row:last-of-type .de-text-col .arrow-down {
-  display: none !important;
+    display: none !important;
 }
 
 /* ANIMATION ================== */
- .de-sliding-bg {
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
+.de-sliding-bg {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 
 .de-featured-squares .de-featured-row:nth-of-type(odd) .de-image-col .de-sliding-bg {
-  transform: translateX(-102%);
-  transition-delay: 0.4s;
+    transform: translateX(-102%);
+    transition-delay: 0.4s;
 }
 
 .de-featured-squares .de-featured-row:nth-of-type(odd) .de-text-col .de-sliding-bg {
-  transform: translateY(-102%);
-  transition-delay: 0.6s;
+    transform: translateY(-102%);
+    transition-delay: 0.6s;
 }
 
 .de-featured-squares .de-featured-row:nth-of-type(even) .de-image-col .de-sliding-bg {
-  transform: translateX(102%);
-  transition-delay: 0.8s;
+    transform: translateX(102%);
+    transition-delay: 0.8s;
 }
 
 .de-featured-squares .de-featured-row:nth-of-type(even) .de-text-col .de-sliding-bg {
-  transform: translateY(102%);
-  transition-delay: 1s;
+    transform: translateY(102%);
+    transition-delay: 1s;
 }
 
 .de-featured-squares.js-animate .de-featured-row.de-image-col .de-sliding-bg,
@@ -1224,14 +1225,14 @@ html {
 .de-featured-squares .de-featured-row .js-animate.de-text-col .de-sliding-bg,
 .de-featured-squares .de-featured-row .js-animate .de-image-col .de-sliding-bg,
 .de-featured-squares .de-featured-row .js-animate .de-text-col .de-sliding-bg {
-  transform: none;
+    transform: none;
 }
 
 /* --------------------------------------------------------------------------
   IMAGE DIVIDER
 -----------------------------------------------------------------------------*/
 .de-image-divider {
-  background: #E5F5FC;
+    background: #E5F5FC;
 }
 
 
@@ -1240,500 +1241,500 @@ html {
   SUSPICIOUS SIX
 -----------------------------------------------------------------------------*/
 .de-suspicious-six {
-  background: #E5F5FC;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-  overflow: hidden;
+    background: #E5F5FC;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    overflow: hidden;
 }
 
 @media (max-width: 1024px) and (min-width: 581px) {
-  .de-suspicious-six {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
+    .de-suspicious-six {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
 }
 
 .de-suspicious-six h2 {
-  margin-bottom: 6rem;
-  text-align: center;
+    margin-bottom: 6rem;
+    text-align: center;
 }
 
 @media (max-width: 1024px) and (min-width: 581px) {
-  .de-suspicious-six h2 {
-    white-space: nowrap;
-  }
+    .de-suspicious-six h2 {
+        white-space: nowrap;
+    }
 }
 
 .de-suspicious-six .de-blender {
-  position: absolute;
-  bottom: 0;
-  right: -9rem;
-  max-width: 24.5rem;
-  width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: -9rem;
+    max-width: 24.5rem;
+    width: 100%;
 }
 
 @media (max-width: 580px) {
-  .de-suspicious-six .de-blender {
-    max-width: 12rem;
-    right: -5rem;
-  }
+    .de-suspicious-six .de-blender {
+        max-width: 12rem;
+        right: -5rem;
+    }
 }
 
 /* SUSPICIOUS SIX SUBHEADING ================== */
 .de-suspicious-six h3 {
-  position: relative;
-  z-index: 3;
-  line-height: 0.8;
-  font-size: 6rem;
-  letter-spacing: 0;
+    position: relative;
+    z-index: 3;
+    line-height: 0.8;
+    font-size: 6rem;
+    letter-spacing: 0;
 }
 
 @media (max-width: 580px) {
-  .de-suspicious-six h3 {
-    font-size: 5rem;
-  }
+    .de-suspicious-six h3 {
+        font-size: 5rem;
+    }
 }
 
 @media (max-width: 580px) {
-  .de-suspicious-six h2 {
-    font-size: 2.5rem;
-  }
+    .de-suspicious-six h2 {
+        font-size: 2.5rem;
+    }
 }
 
 @media (min-width: 1025px) {
-  .de-suspicious-six .de-subheading-wrapper {
-    position: absolute;
-  }
+    .de-suspicious-six .de-subheading-wrapper {
+        position: absolute;
+    }
 }
 
 @media (max-width: 1024px) and (min-width: 581px) {
-  .de-suspicious-six .de-subheading-wrapper {
-    margin-left: 7rem;
-  }
+    .de-suspicious-six .de-subheading-wrapper {
+        margin-left: 7rem;
+    }
 }
 
 @media (min-width: 1025px) {
-  .de-suspicious-six .de-six-image {
-    max-width: 33.7rem;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
+    .de-suspicious-six .de-six-image {
+        max-width: 33.7rem;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
 }
 
 @media (max-width: 1024px) {
-  .de-suspicious-six .de-six-image {
-    max-width: 23rem;
-    margin-bottom: -10rem;
-  }
+    .de-suspicious-six .de-six-image {
+        max-width: 23rem;
+        margin-bottom: -10rem;
+    }
 }
 
 @media (max-width: 580px) {
-  .de-suspicious-six .de-six-image {
-    margin-bottom: -6rem;
-    margin-top: -9rem;
-  }
+    .de-suspicious-six .de-six-image {
+        margin-bottom: -6rem;
+        margin-top: -9rem;
+    }
 }
 
 /* LIST ================== */
 .de-suspicious-six .de-list-item-heading {
-  text-transform: lowercase;
-  letter-spacing: -.054rem;
-  line-height: 1.2;
-  margin-bottom: 0.8rem;
-  position: relative;
+    text-transform: lowercase;
+    letter-spacing: -.054rem;
+    line-height: 1.2;
+    margin-bottom: 0.8rem;
+    position: relative;
 }
 
 .de-suspicious-six .de-list-item-heading::before {
-  content: '';
-  display: block;
-  position: absolute;
-  bottom: 0.4rem;
-  left: -3rem;
-  width: 0;
-  height: 1px;
-  background: #FB48C4;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0.4rem;
+    left: -3rem;
+    width: 0;
+    height: 1px;
+    background: #FB48C4;
 }
 
 @media (max-width: 580px) {
-  .de-suspicious-six .de-list-item-heading::before {
-    width: 1.4rem;
-    height: 1px;
-  }
+    .de-suspicious-six .de-list-item-heading::before {
+        width: 1.4rem;
+        height: 1px;
+    }
 }
 
 .de-suspicious-six .de-list-item-heading strong {
-  text-decoration: line-through;
+    text-decoration: line-through;
 }
 
 .de-suspicious-six .de-desc {
-  max-width: 43rem;
+    max-width: 43rem;
 }
 
 @media (max-width: 1024px) and (min-width: 581px) {
-  .de-suspicious-six .de-desc {
-    max-width: 52rem;
-  }
+    .de-suspicious-six .de-desc {
+        max-width: 52rem;
+    }
 }
 
 @media (max-width: 580px) {
-  .de-suspicious-six .de-desc {
-    max-width: 85%;
-  }
+    .de-suspicious-six .de-desc {
+        max-width: 85%;
+    }
 }
 
 .de-suspicious-six .de-desc a {
-  color: #4a4a4a;
+    color: #4a4a4a;
 }
 
 .de-suspicious-six .de-desc a:hover {
-  color: #4a4a4a;
-  text-decoration: underline;
+    color: #4a4a4a;
+    text-decoration: underline;
 }
 
 .de-suspicious-six .js-animate .de-list-item-heading::before {
-  width: 2rem;
-  transition: all .8s ease .8s;
+    width: 2rem;
+    transition: all .8s ease .8s;
 }
 
 .de-suspicious-six .js-animate [data-anim-order="6"] .de-list-item-heading::before {
-  transition-delay: 1s;
+    transition-delay: 1s;
 }
 
 .de-suspicious-six .js-animate [data-anim-order="7"] .de-list-item-heading::before {
-  transition-delay: 1.2s;
+    transition-delay: 1.2s;
 }
 
 .de-suspicious-six .js-animate [data-anim-order="8"] .de-list-item-heading::before {
-  transition-delay: 1.5s;
+    transition-delay: 1.5s;
 }
 
 .de-suspicious-six .js-animate [data-anim-order="9"] .de-list-item-heading::before {
-  transition-delay: 1.8s;
+    transition-delay: 1.8s;
 }
 
 /* SUSPICIOUS SIX TEXT ================== */
 .de-suspicious-six .de-list-wrapper {
-  position: relative;
+    position: relative;
 }
 
 @media (max-width: 580px) {
-  .de-suspicious-six .de-list-wrapper {
-    padding-left: 2rem;
-  }
+    .de-suspicious-six .de-list-wrapper {
+        padding-left: 2rem;
+    }
 }
 
 .de-suspicious-six li {
-  max-width: 50rem;
-  margin-bottom: 2rem;
-  position: relative;
-  z-index: 3;
+    max-width: 50rem;
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 3;
 }
 
 @media (min-width: 1025px) {
-  .de-suspicious-six li:nth-of-type(1) {
-    margin-right: 8rem;
-    margin-left: auto;
-    margin-bottom: 6rem;
-  }
+    .de-suspicious-six li:nth-of-type(1) {
+        margin-right: 8rem;
+        margin-left: auto;
+        margin-bottom: 6rem;
+    }
 
-  .de-suspicious-six li:nth-of-type(2) {
-    margin-right: 20rem;
-    margin-left: auto;
-  }
+    .de-suspicious-six li:nth-of-type(2) {
+        margin-right: 20rem;
+        margin-left: auto;
+    }
 
-  .de-suspicious-six li:nth-of-type(3) {
-    margin-left: 4rem;
-  }
+    .de-suspicious-six li:nth-of-type(3) {
+        margin-left: 4rem;
+    }
 
-  .de-suspicious-six li:nth-of-type(4) {
-    margin-right: 8rem;
-    margin-left: auto;
-  }
+    .de-suspicious-six li:nth-of-type(4) {
+        margin-right: 8rem;
+        margin-left: auto;
+    }
 }
 
 /* --------------------------------------------------------------------------
   DRUNK IN LOVE SLIDER
 -----------------------------------------------------------------------------*/
 .de-drunk-in-love-slider {
-  background: #E5F5FC;
-  text-align: center;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+    background: #E5F5FC;
+    text-align: center;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
 }
 
 @media (max-width: 580px) {
-  .de-drunk-in-love-slider {
-    padding-left: 0;
-    padding-right: 0;
-  }
+    .de-drunk-in-love-slider {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 .de-drunk-in-love-slider .de-desc {
-  margin-bottom: 2rem;
-  max-width: 74.7rem;
-  margin-left: auto;
-  margin-right: auto;
+    margin-bottom: 2rem;
+    max-width: 74.7rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .de-drunk-in-love-slider h2 {
-  margin-bottom: 4.5rem;
+    margin-bottom: 4.5rem;
 }
 
 .de-drunk-in-love-slider .de-dil-icon {
-  max-width: 13rem;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 4.5rem;
+    max-width: 13rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4.5rem;
 }
 
 /* SWIPER STYLES ================== */
 .de-drunk-in-love-slider {
-  background: #E5F5FC;
-  text-align: center;
-  padding-top: 5rem;
-  padding-bottom: 9rem;
+    background: #E5F5FC;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 9rem;
 }
 
 .de-drunk-in-love-slider .swiper-container-quotes {
-  max-width: 98rem;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  padding-left: 13rem;
-  padding-right: 13rem;
+    max-width: 98rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-left: 13rem;
+    padding-right: 13rem;
 }
 
 @media (max-width: 580px) {
-  .de-drunk-in-love-slider .swiper-container-quotes {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+    .de-drunk-in-love-slider .swiper-container-quotes {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .de-drunk-in-love-slider .slick-track {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 .de-drunk-in-love-slider .de-desc {
-  margin-bottom: 2rem;
-  max-width: 53.7rem;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 1.4;
+    margin-bottom: 2rem;
+    max-width: 53.7rem;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.4;
 }
 
 .de-drunk-in-love-slider h2 {
-  margin-bottom: 4.5rem;
+    margin-bottom: 4.5rem;
 }
 
 .de-drunk-in-love-slider .de-dil-icon {
-  max-width: 13rem;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 4.5rem;
-  width: 100%;
+    max-width: 13rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4.5rem;
+    width: 100%;
 }
 
 @media (max-width: 580px) {
-  .de-drunk-in-love-slider .de-dil-icon {
-    max-width: 8.5rem;
-  }
+    .de-drunk-in-love-slider .de-dil-icon {
+        max-width: 8.5rem;
+    }
 }
 
 
 
 .de-drunk-in-love-slider .swiper-btn-next:focus,
 .de-drunk-in-love-slider .swiper-btn-prev:focus {
-  outline: 2px dotted black;
-  outline-offset: 1px;
+    outline: 2px dotted black;
+    outline-offset: 1px;
 }
 
 @media (max-width: 580px) {
 
-  .de-drunk-in-love-slider .swiper-btn-next,
-  .de-drunk-in-love-slider .swiper-btn-prev {
-    width: 2.5rem;
-    left: 0.2rem;
-  }
+    .de-drunk-in-love-slider .swiper-btn-next,
+    .de-drunk-in-love-slider .swiper-btn-prev {
+        width: 2.5rem;
+        left: 0.2rem;
+    }
 }
 
 
 
 @media (max-width: 580px) {
-  .de-drunk-in-love-slider .swiper-btn-next {
-    right: 0.2rem;
-  }
+    .de-drunk-in-love-slider .swiper-btn-next {
+        right: 0.2rem;
+    }
 }
 
 .de-drunk-in-love-slider .de-desc,
 .de-drunk-in-love-slider h6 {
-  transform: translateY(1rem);
-  opacity: 1;
-  transition: opacity 0.6s ease-in-out, transform 0.8s ease-in-out;
+    transform: translateY(1rem);
+    opacity: 1;
+    transition: opacity 0.6s ease-in-out, transform 0.8s ease-in-out;
 }
 
 .de-drunk-in-love-slider .slick-active .de-desc,
 .de-drunk-in-love-slider .slick-active h6 {
-  transform: none;
-  opacity: 1;
+    transform: none;
+    opacity: 1;
 }
 
 /* --------------------------------------------------------------------------
   OUTRO
 -----------------------------------------------------------------------------*/
 .de-home-outro {
-  padding-left: 6rem;
-  padding-right: 6rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
 }
 
 @media (max-width: 1024px) {
-  .de-home-outro {
-    padding-right: 0;
-  }
+    .de-home-outro {
+        padding-right: 0;
+    }
 }
 
 @media (max-width: 580px) {
-  .de-home-outro {
-    padding-left: 0;
-  }
+    .de-home-outro {
+        padding-left: 0;
+    }
 }
 
 /* FOUNDER ================== */
 .de-home-outro .de-founder {
-  background: #FFEF00;
-  padding: 4.6rem 8.5rem;
+    background: #FFEF00;
+    padding: 4.6rem 8.5rem;
 }
 
 @media (max-width: 580px) {
-  .de-home-outro .de-founder {
-    padding: 6rem 5rem;
-  }
+    .de-home-outro .de-founder {
+        padding: 6rem 5rem;
+    }
 }
 
 
 
 .de-home-outro .de-founder h5 {
-  margin-bottom: 3rem;
-  color: #4a4a4a;
-  margin-top: 3.4rem;
+    margin-bottom: 3rem;
+    color: #4a4a4a;
+    margin-top: 3.4rem;
 }
 
 .de-home-outro .de-founder .de-body-sans-2 {
-  line-height: 1.4782608696;
+    line-height: 1.4782608696;
 }
 
 @media (max-width: 1024px) and (min-width: 581px) {
-  .de-home-outro .de-founder .de-body-sans-2 {
-    line-height: 2.1111111111;
-  }
+    .de-home-outro .de-founder .de-body-sans-2 {
+        line-height: 2.1111111111;
+    }
 }
 
 @media (max-width: 580px) {
-  .de-home-outro .de-founder .de-body-sans-2 {
-    line-height: 1.6;
-  }
+    .de-home-outro .de-founder .de-body-sans-2 {
+        line-height: 1.6;
+    }
 }
 
 .de-home-outro .de-founder .de-desc a {
-  color: #FB48C4;
+    color: #FB48C4;
 }
 
 .de-home-outro .de-founder .de-desc a:hover {
-  color: #FB48C4;
-  text-decoration: underline;
+    color: #FB48C4;
+    text-decoration: underline;
 }
 
 .de-home-outro .de-founder .de-hanging-quote-wrapper {
-  position: relative;
+    position: relative;
 }
 
 .de-home-outro .de-founder .de-hanging-quote-wrapper .de-hanging-quote {
-  position: absolute;
-  top: 0;
-  left: -1.5rem;
+    position: absolute;
+    top: 0;
+    left: -1.5rem;
 }
 
 @media (max-width: 1024px) {
-  .de-home-outro .de-founder .de-hanging-quote-wrapper .de-hanging-quote {
-    left: -1.4rem;
-  }
+    .de-home-outro .de-founder .de-hanging-quote-wrapper .de-hanging-quote {
+        left: -1.4rem;
+    }
 }
 
 @media (max-width: 580px) {
-  .de-home-outro .de-founder .de-hanging-quote-wrapper .de-hanging-quote {
-    left: -1rem;
-  }
+    .de-home-outro .de-founder .de-hanging-quote-wrapper .de-hanging-quote {
+        left: -1rem;
+    }
 }
 
 /* RIGHT COLUMN ================== */
 @media (min-width: 1025px) {
-  .de-home-outro .de-right-col {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    padding-top: 4rem;
-  }
+    .de-home-outro .de-right-col {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-top: 4rem;
+    }
 }
 
 @media (max-width: 1024px) {
-  .de-home-outro .de-right-col {
-    padding-top: 1rem;
-    padding-bottom: 0;
-  }
+    .de-home-outro .de-right-col {
+        padding-top: 1rem;
+        padding-bottom: 0;
+    }
 }
 
 /* DRUNK LIFE ================== */
 .de-home-outro .de-drunk-life {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 
 .de-home-outro .de-drunk-life .de-btn {
-  display: inline-block;
-  position: absolute;
-  bottom: 4.5rem;
-  left: 50%;
-  transform: translateX(-50%);
-  white-space: nowrap;
+    display: inline-block;
+    position: absolute;
+    bottom: 4.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
 }
 
 .de-home-outro .de-drunk-life .de-btn:hover {
-  color: #4a4a4a;
+    color: #4a4a4a;
 }
 
 /* BARE WITH US ================== */
 .de-home-outro .de-social-block {
-  margin-top: 3rem;
+    margin-top: 3rem;
 }
 
 @media (max-width: 1024px) {
-  .de-home-outro .de-social-block {
-    margin-top: 2.6rem;
-  }
+    .de-home-outro .de-social-block {
+        margin-top: 2.6rem;
+    }
 }
 
 .de-home-outro .de-social-block img {
-  width: 100%;
+    width: 100%;
 }
 
 /* /* SITE MAP */
 .de-sitemap ul {
-  list-style-type: disc;
+    list-style-type: disc;
 }
 
 .de-sitemap ul ul {
-  list-style-type: circle;
+    list-style-type: circle;
 }
 
 */
@@ -1741,15 +1742,15 @@ html {
 /* CSS Document */
 /*---------------------common---------------------*/
 @media (max-width: 580px) {
-  .de-btn {
-    font-size: 1.9rem;
-    letter-spacing: 0.12em;
-    padding: 1.3rem 2.1rem 1.25rem 2.5rem;
-  }
+    .de-btn {
+        font-size: 1.9rem;
+        letter-spacing: 0.12em;
+        padding: 1.3rem 2.1rem 1.25rem 2.5rem;
+    }
 }
 
 .de-home {
-  /*	.de-home-product-slider .slick-slide {
+    /*	.de-home-product-slider .slick-slide {
   		padding-top: 19rem;
   		padding-bottom: 8rem;
   		@include mobile-only {
@@ -1824,7 +1825,7 @@ html {
 }
 
 .de-home .de-quote {
-  /*		transform-origin: top left;
+    /*		transform-origin: top left;
   		left: -0.5rem;
   		position: fixed;
   		padding-bottom: 2.7rem;
@@ -1837,237 +1838,238 @@ html {
   		font-family: $YuGothic;
   		letter-spacing: 0.12em;
   		color: $quote;*/
-  position: fixed;
-  transform-origin: top left;
-  padding-bottom: 2rem;
-  transform: rotate(90deg) translateY(-100%);
-  top: 166px;
-  font-size: 1.4rem;
-  font-weight: 700;
+    position: fixed;
+    transform-origin: top left;
+    padding-bottom: 2rem;
+    transform: rotate(90deg) translateY(-100%);
+    top: 166px;
+    font-size: 1.4rem;
+    font-weight: 700;
 }
 
 
 
 @media (max-width: 580px) {
-  .de-home .de-home-hero {
-    padding-bottom: 3.85rem;
-  }
+    .de-home .de-home-hero {
+        padding-bottom: 3.85rem;
+    }
 }
 
 .de-home .de-home-hero .promo {
-  letter-spacing: 0.09em;
-  color: #5b5d63;
+    letter-spacing: 0.09em;
+    color: #5b5d63;
 }
 
 @media (max-width: 580px) {
-  .de-home .de-home-hero .promo {
-    font-family: "Hiragino Kaku Gothic Pro";
-    font-size: 1.1rem;
-    letter-spacing: 0.08em;
-    line-height: 1.5rem;
-    max-width: 24rem;
-  }
+    .de-home .de-home-hero .promo {
+        font-family: "Hiragino Kaku Gothic Pro";
+        font-size: 1.1rem;
+        letter-spacing: 0.08em;
+        line-height: 1.5rem;
+        max-width: 24rem;
+    }
 }
 
 @media (min-width: 1025px) and (max-width: 1440px) {
-  .de-home .de-home-hero .de-collection-description {
-    font-size: 2.42rem;
-  }
+    .de-home .de-home-hero .de-collection-description {
+        font-size: 2.42rem;
+    }
 
- 
+
 }
 
 
 
 
- .de-featured-squares {
-  color: #5b5d63;
-}
-
-@media (max-width: 580px) {
-  .de-featured-squares .image-col {
-    padding: 4.7rem;
-  }
+.de-featured-squares {
+    color: #5b5d63;
 }
 
 @media (max-width: 580px) {
-  .de-featured-squares .de-text-col {
-   padding: 4.6rem 3rem 3.5rem;
-  }
+    .de-featured-squares .image-col {
+        padding: 4.7rem;
+    }
+}
+
+@media (max-width: 580px) {
+    .de-featured-squares .de-text-col {
+        padding: 4.6rem 3rem 3.5rem;
+    }
 }
 
 @media (min-width: 1025px) and (max-width: 1440px) {
 
-   .de-featured-squares h2.de-h2-sans--bold,
-   .de-suspicious-six h2.de-h2-sans--bold {
-    font-size: 5.81rem;
-  }
+    .de-featured-squares h2.de-h2-sans--bold,
+    .de-suspicious-six h2.de-h2-sans--bold {
+        font-size: 5.81rem;
+    }
 
-  .de-featured-squares .de-desc {
-    font-size: 3.40rem;
-  }
+    .de-featured-squares .de-desc {
+        font-size: 3.40rem;
+    }
 
 
 }
 
 @media (min-width: 1440px) {
- .de-featured-squares .de-desc {
-    font-size: 3.5rem;
-  }
+    .de-featured-squares .de-desc {
+        font-size: 3.5rem;
+    }
 }
 
 @media (max-width: 580px) {
-   .de-featured-squares .de-desc {
-    font-size: 2.2rem;
-  }
+    .de-featured-squares .de-desc {
+        font-size: 2.2rem;
+    }
 
-   .de-featured-squares .de-desc span {
-    display: inline;
-    margin-left: -0.5rem;
-  }
+    .de-featured-squares .de-desc span {
+        display: inline;
+        margin-left: -0.5rem;
+    }
 
 
 }
 
 .de-home .de-product-carousel h1 {
-  font-size: 25rem;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  font-weight: 400;
+    font-size: 25rem;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 400;
 }
 
 @media (max-width: 1024px) and (min-width: 581px) {
-  .de-home .de-product-carousel h1 {
-    font-size: 13.5rem;
-    top: 2rem;
-  }
+    .de-home .de-product-carousel h1 {
+        font-size: 13.5rem;
+        top: 2rem;
+    }
 }
 
 @media (max-width: 580px) {
-  .de-home .de-product-carousel h1 {
-    font-size: 9rem;
-    top: 3rem;
-  }
+    .de-home .de-product-carousel h1 {
+        font-size: 9rem;
+        top: 3rem;
+    }
 }
 
 .de-home .de-suspicious-six {
-  color: #5b5d63;
+    color: #5b5d63;
 }
 
 @media (max-width: 580px) {
-  .de-home .de-suspicious-six {
-    padding-top: 6.5rem;
-  }
+    .de-home .de-suspicious-six {
+        padding-top: 6.5rem;
+    }
 }
 
 @media (min-width: 1441px) {
-  .de-home .de-suspicious-six h2.de-h2-sans--bold {
-    font-size: 6rem;
-  }
+    .de-home .de-suspicious-six h2.de-h2-sans--bold {
+        font-size: 6rem;
+    }
 }
 
 @media (max-width: 1024px) and (min-width: 581px) {
-  .de-home .de-suspicious-six h2.de-h2-sans--bold {
-    font-size: 5.2rem;
-  }
+    .de-home .de-suspicious-six h2.de-h2-sans--bold {
+        font-size: 5.2rem;
+    }
 }
 
 .de-home .de-suspicious-six .de-desc {
-  font-size: 1.4rem;
+    font-size: 1.4rem;
 }
 
 @media (min-width: 1025px) and (max-width: 1440px) {
-  .de-home .de-suspicious-six .de-desc {
-    font-size: 1.55rem;
-  }
+    .de-home .de-suspicious-six .de-desc {
+        font-size: 1.55rem;
+    }
 
-  .de-home .de-drunk-in-love-slider h2.de-h2-sans--bold {
-    font-size: 5.4rem;
-  }
+    .de-home .de-drunk-in-love-slider h2.de-h2-sans--bold {
+        font-size: 5.4rem;
+    }
 }
 
 @media (min-width: 1441px) {
-  .de-home .de-suspicious-six .de-desc {
-    font-size: 1.6rem;
-  }
+    .de-home .de-suspicious-six .de-desc {
+        font-size: 1.6rem;
+    }
 }
 
 @media (max-width: 580px) {
-  .de-home .de-suspicious-six .de-js-animate .de-list-item-heading::before {
-    width: 1.8rem;
-    height: 2px;
-  }
+    .de-home .de-suspicious-six .de-js-animate .de-list-item-heading::before {
+        width: 1.8rem;
+        height: 2px;
+    }
 }
 
 .de-home .de-suspicious-six .list-wrapper {
-  padding-left: 3.05rem;
-  margin: 0 auto;
+    padding-left: 3.05rem;
+    margin: 0 auto;
 }
 
 @media (max-width: 580px) {
-  .de-home .de-suspicious-six li:nth-of-type(2) {
-    margin-bottom: 0;
-  }
+    .de-home .de-suspicious-six li:nth-of-type(2) {
+        margin-bottom: 0;
+    }
 }
 
 .de-home .de-suspicious-six li:nth-of-type(3) {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 @media (max-width: 580px) {
 
-  .de-home .de-suspicious-six li:nth-of-type(1) .desc,
-  .de-home .de-suspicious-six li:nth-of-type(2) .desc,
-  .de-home .de-suspicious-six li:nth-of-type(3) .desc,
-  .de-home .de-suspicious-six li:nth-of-type(4) .desc {
-    width: 25rem;
-  }
+    .de-home .de-suspicious-six li:nth-of-type(1) .desc,
+    .de-home .de-suspicious-six li:nth-of-type(2) .desc,
+    .de-home .de-suspicious-six li:nth-of-type(3) .desc,
+    .de-home .de-suspicious-six li:nth-of-type(4) .desc {
+        width: 25rem;
+    }
 }
 
 @media (max-width: 580px) {
-  .de-home .de-suspicious-six .de-blender {
-    right: -5rem;
-    bottom: -4.7rem;
-  }
+    .de-home .de-suspicious-six .de-blender {
+        right: -5rem;
+        bottom: -4.7rem;
+    }
 }
 
 .de-home .de-drunk-in-love-slider {
-  color: #5b5d63;
+    color: #5b5d63;
 }
 
 @media (max-width: 580px) {
-  .de-home .de-drunk-in-love-slider {
-    padding-bottom: 7.5rem;
-    padding-top: 4.5rem;
-  }
+    .de-home .de-drunk-in-love-slider {
+        padding-bottom: 7.5rem;
+        padding-top: 4.5rem;
+    }
 }
 
 @media (min-width: 1441px) {
-  .de-home .de-drunk-in-love-slider h2.de-h2-sans--bold {
-    font-size: 6rem;
-  }
+    .de-home .de-drunk-in-love-slider h2.de-h2-sans--bold {
+        font-size: 6rem;
+    }
 }
 
 .de-home .de-left-spacer {
-  margin-left: 6rem;
-  width: calc(100% - 6rem);
+    margin-left: 6rem;
+    width: calc(100% - 6rem);
 }
 
 @keyframes gradientAnimation {
-  0% {
-    background-position: 51% 0;
-  }
+    0% {
+        background-position: 51% 0;
+    }
 
-  50% {
-    background-position: 50% 100%;
-  }
+    50% {
+        background-position: 50% 100%;
+    }
 
-  100% {
-    background-position: 51% 0;
-  }
+    100% {
+        background-position: 51% 0;
+    }
 }
+
 @charset "UTF-8";
 
 .form-row:after,
@@ -62252,7 +62254,7 @@ nav .de-close-button:hover span:last-of-type {
         align-self: center
     }
 
- 
+
 
     .de-shoppable-nav-panel .de-product.flex-3 {
         width: 33%;
@@ -62267,7 +62269,7 @@ nav .de-close-button:hover span:last-of-type {
         margin-right: 1%
     }
 
- 
+
 
     .de-shoppable-nav-panel .de-product.flex-5 {
         width: 27%;
